@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>table</title>
 </head>
 <body>
@@ -16,6 +17,7 @@
             <tr><td>netherland</td><td>Amsterdam</td><td>17.53M</td><td>1.01T</td></tr>
         </tbody>
     </table>
+    <br>
     <table>
         <thead><th>name</th><th>year</th><th>trail</th><th>driector name</th><th>gener</th></thead>
         <tbody>
@@ -27,13 +29,62 @@
         <tr><td>ironman 1</td><td>2008</td><td>Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name</td><td>Jon Favreau</td><td>action</td></tr>
     </tbody>
     </table>
+    <br>
     <table>
         <thead><th>name</th><th>num of s</th><th>trail</th><th>lang</th><th>poster pic</th><th>vote</th><th>ganer</th></thead>
         <tbody>
             <tr><td>friends</td><td>10</td><td>Friends is an American television sitcom</td><td>english</td>
                 <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABDlBMVEUAAAD///8DAAAAAAOsrKz39/fFxcW1tbWurq7a2trw8PCioqLCwsKFhYVUVFT4+PhAQECWlpZvb2/i4uJ3d3eMjIzNzc28vLwZGRlJSUlpaWkyMjJ+fn5mZmbV1dUsLCxRUVEgICA5OTkRERHq6uoAtPoCsPCcnJwoKCg9PT0rIhmXOiysPTFzMCkSgKoQtfI6MxvlwUf+0kKljjo+GhnDRjbpUTq8QDkYDRBNQSSwlToLHCIPcI4SaZAACwL3TjsCrvf4xjqCdy8qEhPzVjtsXihdUCMMRFkMKjhMIR3xyjrhvUjuTD0MntIIIB73yUrAojyBMyIvLRwPjr+SNzEPWG0gHBPMr0IRo9AwFRtfz2D9AAAGyklEQVR4nO2Zd3saRxCHb69QDgQCBCcEwmBAxY34HCuuwbJxU6Q4cWI7+f5fJDtbru5hZD9R7Dy/9w8bts7MzszOIssCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgO+Icu2/luBfpsvYFe7WcHszr7N9hTtaFrs6DY9cjwnqV7Uj4TLW/aKJ193S1qUm7PeYpmUc0A3qQcPQ7jN//wsE1OSPsMzcDeYJcU3yFOFH+rFqpqse7ApTE+XcxH32VW7Wyq9Jku9VRk3GvOB6wbStdWdh5DDWb5jp6jM2akfduRhtFWg4aPU8k0Uy+LklpyxJ2zRpt7qu14yIwJHbvZbvaqV2zLl+zaRhw1U+4Rv2Si5xnJ+8n9qPGSQayp7KVtEJGxjzCZ2Cvl5qw362u5z360o8fJZfr5MMMzef19y0hvmYrIv20mdUMoi5W9Cndgqk6+e6q9nonHoJ+fKB0k4t0mHs0LAgrTkcbJdMXtARvnGZHKO0COSnHbfqp8Tq04JeS62cT+w5PRI5ixmqlVnqXPiXsWHBkQowL2/TjvlgPwPZ9ZgrUxPTmZfsc5WgJFkuzfKEQs1Jg9aUcqNK99iw1Z7onKhvO+YwjBTo5fqD7H6bMeJa7QSR5buWI5od2xJOw/WaiJPhHmM7lm3Ztu2ITpWE6cMNx3Jomoi+Wipc7WgxsVXCUtwcTcuRA2hTR1poR8/0KT04YgVbDBon7bM5k2RkV1sDLurNW7dJJkdI3FKWbyp57ywWd2xHWqEkg/6Hu2F4j4ZTnlMuZu/UyvXekLf+eP/kpweibVvtovJpT8aZYz189Ogh39aRXqgF2xOb89bHT54mDaSZZWO4gO1ONKUurffzyXK5vCVOkvKLSEQ6L3IF588O5neU4Zk0+d3w9Cx8zmeMVFIellU88lkvVsvV8kQMj9LsQM8ukYIvQ84ry4maBNOm0NaxXi/m84M31JTMYoxteOX39ejenm66tVyeL5dvHe6S/Iy8mQws1Wkvns0PDhbSa1RF8yo84/wiBew2KtVYhi293G1tkNqM6RTJKA9zvd6dnp2d3qVPW7EPiNBvk38eEBcmDYNNNJQ3uh8fuGPd5xKtlje1SAKZFrnnPp4vuIbzX8V3V5r8eXjGhXzHy+G0ACWRe2m5c+4TvBKgxr74t2fJ8Kjx/d4LA4VT/rEeOenEU8dpv1mQhtymjhK2Wun2B5MZ26BmInZpTvIWsLlIq/MVN7odFRh+P+q0Fwfz+XwhnbQpT4lEPA1/S1Z/fHddkPMzXK2Wv1vSST1VRBxKhcnPHoR0hqEKe+mkolCUGenxnDSci7RgHR3JnaUxx5toSHVgM910e8Xj8ESfkTK4hIf9E27SxVPxbZupSLkXnoVn7x0VsZxOorx9sdTLUcRTDSOGtOnxy+3D5f7ELcQNZEc6iwwWpdwLUvAPFfmK62TcyiYKim1SNyjf8c/z5clb+tzU5xH18m0+XFx8sEX2ryjtea54dO9jPH7UT60X5VLtLrKSH0Q3g/MpDD9pix5rV1AZx7HfcK/5i7JCjHAuQ01ogqyVv0L/Fv9GWYj5Y9NcypfJt8g1GSb6tbCXqf1FySyyqKgt/RKL0sqNj+I/ir0tWXhGRT5dhq9fp1cSvuJZm8GYodpU5nKpYFM6Bvkq/zg7l86mqcNvv5Mt1BPvkKi2S42YxFHcGcTN5C7JE2yI2c2jzRQcMlMxxu8CWnYm/LOudcw+Dt3s3FascVfcMenyI4gNH+kyFl8dcdtHJV/6orOtVAhOpTz+pqXNiBlzrtiwocJmLzJsLaWklw1hVyWlvrrZM9cVKa2v1YZaMvXG0y+11ItKVG1RFE6VFUwvTzMsE0oZgdlRamtOL3rBiqo7pXJA6e3a4UwNzfoGS1pTme0oO4BnmGL3G2tBeoVDsohX36CgMxFmbZ1VEwbJ/4BBCSAemJOCpc684bHMc0wkttKal3v0Or7Ez3NBTsqYRuoY4stcl/6V3DHFccQ13bGyUHMyXw3ddBI354SYHbW0f5lfdL1EaGQpZ8KsW03bj/rTd+52pJ9vsnK/Xlr7wyOVV+tq6ZJc+3J/BVg3g/oyEm23E1ccnVjmlymV5irjSwkRMamsrVLE6r0NLwkNzSlwfJEKpusmd/JzG63DdtEvPl/NNPBKRTmjkGpx7UNh9pm6aK3+3wiNxG8GGYJLu/y3yW7hsbezt9X/j2Hta/7kAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPi++Af3dWl3BbUv3AAAAABJRU5ErkJggg==" width="50" height="60"></td>
             <td>8.9/10</td><td>comedy</td></tr>
-            <tr><td></td></tr>
+            <tr><td>lucifer</td><td>6</td><td>Lucifer is an American urban fantasy television series</td><td>english</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Lucifer%2C_title.jpg/330px-Lucifer%2C_title.jpg" height="50" width="50"></td>
+        <td>8.1/10</td><td>Mystery</td></tr>
+        <tr><td>naruto</td><td>9</td><td>a young ninja who seeks recognition from his peers and dreams of becoming the Hokage</td><td>japanis</td><td><img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" height="50" width="50"></td>
+        <td>8.4/10</td><td>anime</td></tr>
+        <tr><td>one piece</td><td>20</td><td>Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger.<br> The famous mystery treasure named "One Piece".</td>
+        <td>japanis</td><td><img src='onep.jpg' height="50" width="50"></td>
+        <td>8.9/10</td><td>anime</td></tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead><th>name</th><th>num place</th><th>city</th><th>lang</th><th>pic</th><th>vote</th><th>kind of kichen</th></thead>
+        <tbody>
+            <tr><td>benben</td><td>15</td><td>Jrusalem</td><td>hebrew</td>
+            <td><img src="res1.jpg" height="50" width="50"></td>
+            <td>4/5</td><td>Mediterranean</td></tr>
+            <tr><td>choki</td><td>5</td><td>Tokyo</td><td>japanis</td><td><img src="res2.jpg" height="50" width="50"></td>
+            <td>4.5/5</td><td>japanis</td></tr>
+            <tr><td>okoro</td><td>20</td><td>bankok</td><td>thai</td><td><img src="res3.jpg" height="50" width="50"></td>
+            <td>3/5</td><td>thai</td></tr>
+            <tr><td>elechandro</td><td>8</td><td>bouno</td><td>argentinite</td><td><img src="res4.jpg" height="50" width="50"></td><td>5/5</td><td>argentinite</td></tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead><th>name</th><th>live</th><th>city logo</th><th>bday</th><th>mail</th><th>hobby</th></thead>
+        <tbody>
+            <tr><td>Nir Gluskin</td><td>lod</td><td><img src="img/lod.jpg" height="50" width="50"></td><td>01/12/1998</td><td>nirgluskin@gmail.com</td><td>Karting</td></tr>
+            <tr><td>Maya Bargig</td><td>Giv'atayim</td><td><img src="img/giva.png" height="50" width="50"></td><td>14/12/1999</td><td>mayabargig@gmail.com</td><td>playing music</td></tr>
+            <tr><td>Uri Ben-Gaib</td><td>Ramala</td><td><img src="img/ram.png" height="50" width="50"></td><td>15/03/1998</td><td>uri32655@gmail.com</td><td>books</td></tr>
+            <tr><td>Liron Pitussi</td><td>Netanya</td><td><img src="img/natania.png" height="50" width="50"></td><td>26/10/1999</td><td>lironfit@gmail.com</td><td>counting sheeps</td></tr>
+            <tr><td>Ramin Aliev</td><td>Holon</td><td><img src="img/holon.png" height="50" width="50"></td><td>08/05/1998</td><td>Raminx524@gmail.com</td><td>snooker</td></tr>
+            <tr><td>Noa Zelinger</td><td>Naela</td><td><img src="img/nale.jpg" height="50" width="50"></td><td>17/06/2000</td><td>noazel123@gmail.com</td><td>Singing</td></tr>
+            <tr><td>Ori Livne</td><td>Giv'at Ada</td><td><img src="img/ada.jpg" height="50" width="50"></td><td>17/06/2000</td><td>orior200@gmail.com</td><td>Maccabi Haifa</td></tr>
+            <tr><td>Sagai Pacharkovski</td><td>Ma'ale Adumim</td><td><img src="img/red.png" height="50" width="50"></td><td>24/02/2002</td><td>sagipach153@gmail.com</td><td>listening to songs</td></tr>
+            <tr><td>Yuvak Azulai</td><td>Rishon LeZion</td><td><img src="img/r.png" height="50" width="50"></td><td>20/10/1997</td><td>yuvalazulai2016@gmail.com</td><td>playing on piano</td></tr>
+            <tr><td>Eran Toledano</td><td>Mazkeret Batya</td><td><img src="img/maz.jpg" height="50" width="50"></td><td>28/05/2002</td><td>toledanoeran3@gmail.com</td><td>gymnastics</td></tr>
+            <tr><td>Omer Goldberger</td><td>Jerusalem</td><td><img src="img/j.png" height="50" width="50"></td><td>18/04/2001</td><td>purmki456@gmail.com</td><td>reading</td></tr>
+            <tr><td>Sunny Arbiv</td><td>Hadera</td><td><img src="img/hadera.jpg" height="50" width="50"></td><td>06/12/2001</td><td>Arbiv.sunny@gmail.com</td><td>drumming</td></tr>
+            <tr><td>Ofek Madjar</td><td>Rishon LeZion</td><td><img src="img/r.png" height="50" width="50"></td><td>16/08/02</td><td>Ofek.majar@gmail.com</td><td>Traveling</td></tr>
+            <tr><td>Nitzan Ben Shimon</td><td>Holon</td><td><img src="img/holon.png" height="50" width="50"></td><td>29/12/2000</td><td>nitzanbs2248@gmail.com</td><td>Cooking and Baking</td></tr>
+            <tr><td>David Azulae</td><td>Jerusalem</td><td><img src="img/j.png" height="50" width="50"></td><td>07/02/2001</td><td>@gmail.com</td><td>Cooking</td></tr>
+            <tr><td>Hila Zagdon</td><td>Ra'anana</td><td><img src="img/ra.png" height="50" width="50"></td><td>26/10/2001</td><td>hilatoar@gmail.com</td><td>travelling</td></tr>
+            <tr><td>Ohad Raz</td><td>Even Yehud</td><td><img src="img/aven.jpg" height="50" width="50"></td><td>18/03/2001</td><td>ohadraz12@gmail.com</td><td>playing music</td></tr>
+            <tr><td>Ben Kilinski</td><td>Ramat Gan</td><td><img src="img/ramat.png" height="50" width="50"></td><td>10/03/1997</td><td>ben.kilinski@gmail.com</td><td>modern family</td></tr>
+            <tr><td>Shahaf Segall</td><td>Binyamina</td><td><img src="img/bin.jpg" height="50" width="50"></td><td>22/02/2023</td><td>goigadol360@gmail.com</td><td>cooking</td></tr>
+            <tr><td>Dan Zemlyansky</td><td>Bat Yam</td><td><img src="img/yam.png" height="50" width="50"></td><td>04/05/2001</td><td>danzemly000@gmail.com</td><td>video games</td></tr>
+            
         </tbody>
     </table>
 </body>
